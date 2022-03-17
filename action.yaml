@@ -24,6 +24,10 @@ inputs:
     description: Allows for disabling warnings from (annotation) output
     default: "true"
     required: false
+  warnings:
+    description: Allows for disabling error from line-length output
+    default: "true"
+    required: false
 
 runs:
   using: "docker"

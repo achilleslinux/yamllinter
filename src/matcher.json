@@ -14,6 +14,7 @@
           "severity": 3,
           "message": 4,
           "code": 5,
+          "line-length": 6,
           "loop": true
         }
       ]

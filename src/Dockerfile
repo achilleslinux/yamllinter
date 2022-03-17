@@ -14,6 +14,7 @@ RUN \
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 COPY entrypoint.sh /entrypoint.sh
+COPY .yallint.yaml /.yamllint.yaml
 COPY matcher.json /matcher.json
 
 ENTRYPOINT ["/entrypoint.sh"]
